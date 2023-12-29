@@ -1,0 +1,20 @@
+{
+    "Experience": "Experience",
+    "Projects": "Projects",
+    "AvForWork": "Available for work",
+    "Hey":"Hey, I'm",
+    "Contact":"Contact",
+    "FullStackDeveloper":"Full Stack Developer",
+    "Desc1":"with 2 years of experience",
+    "Desc2":"based in Barcelona, Spain.",
+    "WorkingExperience":"Working experience",
+    "Date1":"January 2023 - March 2023",
+    "Date2":"January 2021 - December 2022",
+    "JobDesc1":"Development of a billing platform with Ruby on Rails, Tailwind-CSS, PostgreSQL. I was carrying out part of the frontend renovation. In backend I was performing tests and validations of invoices.",
+    "JobDesc2":"Development of several object management platforms customized for each client. The tech stack was: Ruby on Rails, Bootstrap, Tailwind CSS, React, Vanilla Js, CSS, MySQL. Layout of landing pages and configuration of a SOLR search engine.",
+    "ProjectDesc1":"Inventory management application for warehouses of any business. Focused on accessibility and speed. Frontend and backend. Developed in 4 weeks with on a 3 member group.",
+    "ProjectDesc2":"A small project to learn the basics of Vue and the use of local storage. It is a responsive reading list with search filters.",
+    "ProjectDesc3":"A page that tries to change the problem of having too many bookmarks in the browser. Very useful to avoid wasting time looking for bookmarks.",
+    "AllRightsReserved":"All rights reserved"
+    
+}
