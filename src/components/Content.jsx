@@ -1,6 +1,7 @@
 import AlbertPhoto from "../assets/images/Photo.webp"
 import VueReadingList from "../assets/images/VueReadingList.png"
 import AntStorage from "../assets/images/AntStorage.png"
+import BrowserHub from "../assets/images/BrowserHub.png"
 import { Icon } from '@iconify/react';
 
 function Content() {
@@ -79,31 +80,6 @@ function Content() {
                     <Icon className="mr-2" icon="ph:code-bold" width="30" height="30" />
                     Projects
                 </h2>
-                
-                <article className="mb-12">
-                    <a href="https://github.com/albertcastineira/vue-reading-list" target="_blank" rel="noreferrer">
-                        <h3 className="text-lg font-semibold text-yellow-400 hover:underline">
-                            Vue Reading List 
-                        </h3>
-                    </a>
-                    <p className="mb-4 text-sm font-normal text-[#888585]">A small project to learn the basics of Vue and the use of local storage. It is a responsive reading list with search filters.</p>
-                    <ul className="grid grid-cols-2 md:flex gap-x-2 md:flex-row mb-2">
-                        <span className="flex gap-x-2 rounded-full text-xs  text-white py-1 px-2 border border-white/10 mb-1">
-                            <img className="w-3.5 h-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" />
-                            VueJs
-                        </span>
-                        <span className="flex gap-x-2 rounded-full text-xs  text-white py-1 px-2 border border-white/10 mb-1">          
-                            <img className="w-3.5 h-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
-                            Tailwind CSS
-                        </span>
-                    </ul>
-                    <a href="https://vue-reading-list.vercel.app/" target="_blank" rel="noreferrer">
-                        <img
-                            className="rounded-lg"
-                            src={VueReadingList} alt="" 
-                        />
-                    </a>
-                </article>
 
                 <article className="mb-12">
                     <a href="https://github.com/ANT-Storage/react-ant-storage/" target="_blank" rel="noreferrer">
@@ -142,6 +118,60 @@ function Content() {
                         <img
                             className="rounded-lg"
                             src={AntStorage} alt="" 
+                        />
+                    </a>
+                </article>
+                
+                <article className="mb-12">
+                    <a href="https://github.com/albertcastineira/vue-reading-list" target="_blank" rel="noreferrer">
+                        <h3 className="text-lg font-semibold text-yellow-400 hover:underline">
+                            Vue Reading List 
+                        </h3>
+                    </a>
+                    <p className="mb-4 text-sm font-normal text-[#888585]">A small project to learn the basics of Vue and the use of local storage. It is a responsive reading list with search filters.</p>
+                    <ul className="grid grid-cols-2 md:flex gap-x-2 md:flex-row mb-2">
+                        <span className="flex gap-x-2 rounded-full text-xs  text-white py-1 px-2 border border-white/10 mb-1">
+                            <img className="w-3.5 h-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" />
+                            VueJs
+                        </span>
+                        <span className="flex gap-x-2 rounded-full text-xs  text-white py-1 px-2 border border-white/10 mb-1">          
+                            <img className="w-3.5 h-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+                            Tailwind CSS
+                        </span>
+                    </ul>
+                    <a href="https://vue-reading-list.vercel.app/" target="_blank" rel="noreferrer">
+                        <img
+                            className="rounded-lg"
+                            src={VueReadingList} alt="" 
+                        />
+                    </a>
+                </article>
+
+                <article className="mb-12">
+                    <a href="https://github.com/albertcastineira/react-browserhub/" target="_blank" rel="noreferrer">
+                        <h3 className="text-lg font-semibold text-yellow-400 hover:underline">
+                            BrowserHub
+                        </h3>
+                    </a>
+                    <p className="mb-4 text-sm font-normal text-[#888585]">A page that tries to change the problem of having too many bookmarks in the browser. Very useful to avoid wasting time looking for bookmarks.</p>
+                    <ul className="grid grid-cols-2 md:flex gap-x-2 md:flex-row mb-2">
+                        <span className="flex gap-x-2 rounded-full text-xs  text-white py-1 px-2 border border-white/10 mb-1">
+                            <img className="w-3.5 h-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" />
+                            React Js
+                        </span>
+                        <span className="flex gap-x-2 rounded-full text-xs  text-white py-1 px-2 border border-white/10 mb-1">          
+                            <img className="w-3.5 h-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-plain.svg" />
+                            Tailwind CSS
+                        </span>
+                        <span className="flex gap-x-2 rounded-full text-xs  text-white py-1 px-2 border border-white/10 mb-1">          
+                            <img className="w-3.5 h-auto" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" />
+                            Figma
+                        </span>
+                    </ul>
+                    <a href="https://albertcastineira.github.io/react-browserhub/" target="_blank" rel="noreferrer">
+                        <img
+                            className="rounded-lg"
+                            src={BrowserHub} alt="" 
                         />
                     </a>
                 </article>
