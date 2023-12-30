@@ -12,7 +12,7 @@ function Content({translations}) {
                     <div className="photo">
                         <img
                             src={AlbertPhoto}
-                            className="h-[14em] w-auto mx-auto md:float-end sm:px-4 pr-4"
+                            className="h-[14em] w-auto mx-auto md:float-end sm:px-4"
                             alt="Albert"
                         />
                     </div>
@@ -30,17 +30,17 @@ function Content({translations}) {
                             <br />{translations.Desc2}
                         </p>
                         <div className="icons mt-4">
-                            <a href="https://www.linkedin.com/in/albert-casti%C3%B1eira-aranda/" target="_blank" rel="noreferrer" className="block md:inline-block mb-2 md:mb-0 my-0 mr-2 items-center text-white font-regular text-sm md:text-lg border-white/10 border p-2 rounded-md">
+                            <a href="https://www.linkedin.com/in/albert-casti%C3%B1eira-aranda/" target="_blank" rel="noreferrer" className="block md:inline-block mb-2 md:mb-0 my-0 mr-2 items-center text-white font-regular text-sm md:text-lg border-[#888585] border p-2 rounded-md">
                                 <Icon className="inline-block mr-1 relative -top-0.5" icon="mdi:linkedin" width="26" height="26" />
                                 LinkedIn
                             </a>
                             
-                            <a href="https://github.com/albertcastineira" target="_blank" rel="noreferrer"  className="block md:inline-block my-0 mr-2 items-center mb-2 md:mb-0 text-white font-regular text-sm md:text-lg border-white/10 border p-2 rounded-md">
+                            <a href="https://github.com/albertcastineira" target="_blank" rel="noreferrer"  className="block md:inline-block my-0 mr-2 items-center mb-2 md:mb-0 text-white font-regular text-sm md:text-lg border-[#888585] border p-2 rounded-md">
                                 <Icon className="inline-block mr-1 relative -top-0.5" icon="mdi:github" width="26" height="26" />
                                 Github
                             </a>
 
-                            <a href="mailto:albertcastiaran@gmail.com" target="_blank" rel="noreferrer"  className="block md:inline-block my-0 mr-2 items-center mb-2 md:mb-0 text-white font-regular text-sm md:text-lg border-white/10 border p-2 rounded-md">
+                            <a href="mailto:albertcastiaran@gmail.com" target="_blank" rel="noreferrer"  className="block md:inline-block my-0 mr-2 items-center mb-2 md:mb-0 text-white font-regular text-sm md:text-lg border-[#888585] border p-2 rounded-md">
                                 <Icon className="inline-block mr-1 relative -top-0.5" icon="mdi:email" width="26" height="26" />
                                 {translations.Contact}
                             </a>
