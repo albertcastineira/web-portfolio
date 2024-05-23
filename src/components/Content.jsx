@@ -17,8 +17,8 @@ function Content({translations}) {
                         />
                     </div>
                     <div className="welcome px-4 text-center md:text-left mt-8 md:mt-0">
-                        <span className="bg-transparent bg-yellow-400 relative top-1 text-black font-semibold px-4 py-1 rounded">
-                            {translations.AvForWork}
+                        <span className="bg-transparent border-2 border-yellow-400 relative top-1 text-yellow-400 font-semibold px-4 py-1 rounded">
+                            {translations.CurrentlyWorkingOn}
                         </span>
 
                         <h1 className="text-white text-2xl md:text-5xl font-inter font-semibold my-4">
@@ -58,7 +58,13 @@ function Content({translations}) {
                     {translations.WorkingExperience}
                 </h2>
                     
-                    <ol className="relative border-s border-[#888585] ml-3">                  
+                    <ol className="relative border-s border-[#888585] ml-3">
+                        <li className="mb-10 ms-4">
+                            <div className="absolute w-3 h-3  rounded-full mt-1.5 -start-1.5 border border-[#888585] bg-[#888585]"></div>
+                            <time className="mb-1 text-sm font-normal leading-none text-white">{translations.Date3}</time>
+                            <h3 className="text-lg font-semibold text-yellow-400">Java Software Developer - SopraSteria</h3>
+                            <p className="mb-4 text-base font-normal text-[#888585]">{translations.JobDesc3}</p>
+                        </li>                
                         <li className="mb-10 ms-4">
                             <div className="absolute w-3 h-3  rounded-full mt-1.5 -start-1.5 border border-[#888585] bg-[#888585]"></div>
                             <time className="mb-1 text-sm font-normal leading-none text-white">{translations.Date1}</time>
