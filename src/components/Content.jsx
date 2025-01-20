@@ -11,7 +11,7 @@ import Profile from "./Profile"
 function Content({translations}) {
     return (
         <main>
-            <section id="home" className="home pt-[12em] pb-[8em] mx-auto lg:w-[740px] font-inter">
+            <section id="home" className="home pt-[5em] pb-[8em] mx-auto lg:w-[740px] font-inter">
                 <Profile translations={translations} />
             </section>
 
