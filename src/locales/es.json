@@ -11,13 +11,14 @@
     "WorkingExperience":"Experiencia laboral",
     "Date1":"Enero 2023 - Mayo 2023",
     "Date2":"Enero 2021 - Diciembre 2022",
-    "Date3":"Mayo 2023 - Actualidad",
+    "Date3":"Mayo 2024 - Actualidad",
     "JobDesc1":"Desarrollo de una plataforma de facturación hecha con Ruby on Rails, Tailwind-CSS, PostgreSQL. Estaba encargado de una parte de la renovación del frontend. En el backend hacia test y validaciones para las facturas.",
     "JobDesc2":"Desarrollo de varias plataformas basadas en objetos customizables para clientes. El tech stack era: Ruby on Rails, Bootstrap, Tailwind CSS, React, Vanilla Js, CSS, MySQL. Maquetación de landing pages y configuración de un buscador con SOLR.",
-    "JobDesc3":"Desarrollo de aplicaciones con Java.",
+    "JobDesc3":"Desarrollo de varias aplicaciones usando React. El tech stack es: ReactJS, TailwindCSS, MaterialUI, TypeScript.",
     "ProjectDesc1":"Aplicación de gestión de inventariado. Centrada en la velocidad y accesibilidad. Frontend y backend. Desarrollado en 4 semanas en un equipo de 3 personas.",
     "ProjectDesc2":"Un proyecto pequeño para aprender las bases de Vue y el local storage. Es una lista de lectura con filtros de búsqueda responsiva",
     "ProjectDesc3":"Una página que intenta resolver el problema con muchos marcadores en el navegador. Muy útil para dejar de perder tiempo buscandolos.",
+    "ProjectDesc4":"Una nueva versión moderna y más estable de BrowserHub. Ahora puedes crear, editar y eliminar categorías y sitios web desde el panel. También incluye una amplia variedad de personalización de temas.",
     "AllRightsReserved":"Todos los derechos reservados"
     
 }

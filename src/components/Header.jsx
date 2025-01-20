@@ -3,6 +3,7 @@ import LanguageSwitch from "./LanguageSwitch.jsx";
 function Header({translations, onChangeLanguage, currentLanguage}) {
 
     return (
+        <div className="bg-[#111010]">
         <header className="max-w-5xl text-white mx-auto p-4">
             <nav className="font-inter text-center mx-auto mt-2">
                 <a 
@@ -22,6 +23,7 @@ function Header({translations, onChangeLanguage, currentLanguage}) {
                 <LanguageSwitch onChangeLanguage={onChangeLanguage} currentLanguage={currentLanguage}/>
             </nav>
         </header>
+        </div>
     )
 }
 
